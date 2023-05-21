@@ -87,4 +87,9 @@ public class BeerControllerTest {
 
         then(beerService).should().updateBeer(any(), any());
     }
+
+    @Test
+    public void deleteBeer() {
+
+    }
 }
